@@ -1,5 +1,3 @@
-import datetime
-
 event_title = str(input("Enter event title: "))
 year = str(input("Enter year: "))
 month = str(input("Enter month: "))
