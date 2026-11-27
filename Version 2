@@ -5,13 +5,11 @@ year = input("Enter year: ")
 month = input("Enter month: ")
 day = input("Enter day: ")
 
-# Clean up the text inputs
 event_title = event_title.strip().upper()
 month = month.strip().capitalize()
 year = year.strip()
 day = day.strip()
 
-# Turn the words and numbers into a real date
 full_date = month + " " + day + " " + year
 event_date = datetime.datetime.strptime(full_date, "%B %d %Y")
 
